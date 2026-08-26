@@ -1,0 +1,26 @@
+# Папки с датасетами и картинками
+car_parts_dataset/
+dataset/
+images/
+labels/
+*.jpg
+*.jpeg
+*.png
+*.cache
+
+# Веса нейросетей YOLO
+*.pt
+weights/
+runs/
+
+# Базы данных
+*.db
+*.sqlite3
+
+# Python кэш и окружение
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.vscode/
